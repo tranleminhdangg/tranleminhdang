@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/* CSS Document */
+::placeholder {
+	color:#A9A9A9;
+	opacity: 1;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background: url("../img/DSC02720 2.JPG");
+	background-size: cover;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+/*	height: 100vh;*/
+}
+.header {
+	height: 100px;
+	padding: 24px 0;
+/*	background: lightgrey;*/
+/*	position: absolute;*/
+	z-index: 1000;
+	width: 100%;
+}
+.logo {
+	width: 70%;
+	height: 100px;
+/*	background: red;*/
+	margin: 0 auto;
+}
+.logo img {
+	width: 100%;
+/*	background: lightgrey;*/
+}
+.menu ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+.menu li {
+	margin: 0 30px;
+}
+.menu li a {
+	font-size: 20px;
+	text-decoration: none;
+	color: #e3b404;
+}
+.menu li a:hover {
+	color: rgba(13,61,8,1.00);
+}
+.box {
+	width: 350px;
+	padding: 32px;
+	background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+
+}
+.title {
+	color: white;
+}
+.divided {
+	width: 50%;
+	height: 2px;
+	background: white;
+	margin: 12px 0 32px;
+}
+.box input {
+	background: rgba( 255, 255, 255, 0.7 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 50px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+padding: 8px;
+	outline: none;
+}
+.box button {
+	background: white;
+	border-radius: 20px;
+	padding: 8px 12px;
+	border: none;
+	opacity: 0.5;
+	cursor: pointer;
+}
+.name {
+	display: flex;
+	justify-content: space-between;
+}
+.box input {
+	width: 100%;
+	margin: 8px 0;
+}
+.name input {
+	width: 48%;
+}
+.submit button {
+	margin-top: 16px 0;
+}
+.box span {
+	color: white;
+}
+.box a {
+	color: white;
+}
+.footer-img {
+	width: 100%;
+	margin: 40px;;
+}
+.footer-img img {
+	width: 100%;
+}
+.footer-menu {
+	width: 70%;
+	height: 100px;
+/*	background: black;*/
+	float: right;
+}
+.footer-menu ul li {
+	display: inline-block;
+	margin: 60px 30px 0 10px;
+}
+.footer-menu ul {
+	list-style: none;
+	}
+.footer-menu ul li a {
+	text-decoration: none;
+	color: #e3b404;
+	font-weight: 700;
+	transition-duration: 0.3s;
+}
+.footer-menu ul li a:hover {
+	color: rgba(13,61,8,1.00);
+}

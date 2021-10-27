@@ -1,0 +1,200 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&family=Ubuntu:wght@400;500&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
+}
+body{
+	font-family: 'Roboto Mono', monospace;
+	color: #5F6F91;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Ubuntu', sans-serif;
+/*	color: #1E266D;*/
+}
+.p {
+	line-height: 140%;
+}
+.bg-primary {
+	background-color: #1E266D;
+}
+.bg-secondary {
+	background-color: #FD5285;
+}
+.bg-success {
+	background-color: chartreuse;
+}
+.bg-error {
+	background-color: red;
+}
+.bg-info {
+	background-color: #7B8EE4;
+}
+.bg-secondary-opacity {
+	background-color: #F9F3FE;
+}
+.text-secondary {
+	color: #FD5285;
+}
+.a:hover{
+	color: #0076EE;
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.col-1{
+	width: 8.33%;
+}
+.col-2{
+	width: 16.66%;
+}
+.col-3{
+	width: 25%;
+}
+.col-4{
+	width: 33.33%;
+}
+.col-5{
+	width: 41.66%;
+}
+.col-6{
+	width: 50%;
+}
+.col-7{
+	width: 58.33%;
+}
+.col-8{
+	width: 66.66%;
+}
+.col-9{
+	width: 75%;
+}
+.col-10{
+	width: 83.33%;
+}
+.col-11{
+	width: 91.66%;
+}
+.col-12{
+	width: 100%
+}
+.p-1{
+	padding: 4px;
+}
+.pt-1{
+	padding-top: 4px;
+}
+.pb-1{
+	padding-bottom: 4px;
+}
+.pl-1{
+	padding-left: 4px;
+}
+.pr-1{
+	padding-right: 4px
+}
+.px-1{
+	padding: 0 4px;
+}
+.py-1{
+	padding: 4px 0;
+}
+.py-4 {
+	padding: 8px 0;
+}
+.px-2 {
+	padding: 0 8px;
+}
+.px-4 {
+	padding: 0 12px;
+}
+.px-5 {
+	padding: 0 20px;
+}
+.py-8 {
+	padding: 32px 0;
+}
+.p-2{
+	padding: 8px;
+}
+.p-3 {
+	padding: 12px;
+}
+.pb-12 {
+	padding-bottom: 48px;
+}
+/*margin*/
+.m-1 {
+	margin: 4px
+}
+.mt-1 {
+	margin-top: 4px;
+}
+.mb-1 {
+	margin-bottom: 4px;
+}
+.ml-1 {
+	margin-left: 4px;
+}
+.mr-1 {
+	margin-right: 4px;
+}
+.mx-1 {
+	margin: 0 4px;
+}
+.my-1 {
+	margin: 4px 0;
+}
+.mx-auto {
+	margin: 0 auto;
+}
+.justify-between {
+	justify-content: space-between;
+}
+.justify-center {
+	justify-content: center;
+}
+.align-content {
+	align-content: center;
+	align-items: center;
+}
+.align-s-center {
+	align-self: center;
+}
+.align-s-end {
+	align-self: flex-end;
+}
+.text-left {
+	text-align: left;
+}
+.text-right {
+	text-align: right
+}
+.text-center {
+	text-align: center;
+}
+.btn {
+	padding: 8px 20px;
+	text-decoration: none;
+	color: #151515;
+	border-radius: 20px;
+}
+.btn-primary {
+	background-color: #e3b404;
+	color: rgba(13,61,8,1.00);
+}
+.btn-secondary {
+	background-color: #1E266D;
+	color: white;
+}
+.btn-white {
+	background-color: white;
+	box-shadow: 1px 2px 15px 5px rgba(37,37,37,0.48);
+}
